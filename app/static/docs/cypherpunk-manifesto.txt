@@ -6,7 +6,7 @@ Privacy is necessary for an open society in the electronic age.
 Privacy is not secrecy.  A private matter is something one doesn't
 want the whole world to know, but a secret matter is something one
 doesn't want anybody to know. Privacy is the power to selectively
-reveal oneself to the world.  
+reveal oneself to the world.
 
 If two parties have some sort of dealings, then each has a memory of
 their interaction.  Each party can speak about their own memory of
@@ -24,7 +24,7 @@ transaction have knowledge only of that which is directly necessary
 for that transaction.  Since any information can be spoken of, we
 must ensure that we reveal as little as possible.  In most cases
 personal identity is not salient. When I purchase a magazine at a
-store and hand cash to the clerk, there is no need to know who I am. 
+store and hand cash to the clerk, there is no need to know who I am.
 When I ask my electronic mail provider to send and receive messages,
 my provider need not know to whom I am speaking or what I am saying
 or what others are saying to me;  my provider only need know how to
@@ -40,7 +40,7 @@ anonymous system empowers individuals to reveal their identity when
 desired and only when desired; this is the essence of privacy.
 
 Privacy in an open society also requires cryptography.  If I say
-something, I want it heard only by those for whom I intend it.  If 
+something, I want it heard only by those for whom I intend it.  If
 the content of my speech is available to the world, I have no
 privacy.  To encrypt is to indicate the desire for privacy, and to
 encrypt with weak cryptography is to indicate not too much desire for
@@ -75,14 +75,14 @@ we're going to write it. We publish our code so that our fellow
 Cypherpunks may practice and play with it. Our code is free for all
 to use, worldwide.  We don't much care if you don't approve of the
 software we write.  We know that software can't be destroyed and that
-a widely dispersed system can't be shut down. 
+a widely dispersed system can't be shut down.
 
 Cypherpunks deplore regulations on cryptography, for encryption is
 fundamentally a private act.  The act of encryption, in fact, removes
 information from the public realm.  Even laws against cryptography
 reach only so far as a nation's border and the arm of its violence.
 Cryptography will ineluctably spread over the whole globe, and with
-it the anonymous transactions systems that it makes possible. 
+it the anonymous transactions systems that it makes possible.
 
 For privacy to be widespread it must be part of a social contract.
 People must come and together deploy these systems for the common

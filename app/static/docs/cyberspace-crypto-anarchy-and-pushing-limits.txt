@@ -154,7 +154,7 @@ break a 1000-decimal-digit modulus.)
 * No "zoning laws" will be needed, or possible, in cyberspace. (Neil
 Stephenson's "Snow Crash," while a wonderful and thought-provoking
 read, got it wrong here: cyberspace is too extensible and locally
-controllable.) 
+controllable.)
 
 * Physical location of cyberspace locations will be increasingly hard
 to pin down. A vast "labyrinth of rooms and corridors" might be
