@@ -1,9 +1,9 @@
 THE CYPHERNOMICON
 
 1. Introduction
- 
+
 1.1. copyright
-   THE  CYPHERNOMICON: Cypherpunks FAQ and More, Version 0.666, 
+   THE  CYPHERNOMICON: Cypherpunks FAQ and More, Version 0.666,
    1994-09-10, Copyright Timothy C. May. All rights reserved.
    See the detailed disclaimer. Use short sections under "fair
    use" provisions, with appropriate credit, but don't put your
@@ -108,7 +108,7 @@ THE CYPHERNOMICON
    offended, write your own FAQ. My focus on things loosely
    called "crypto anarchy" is just that: my _focus_. This focus
    naturally percolates over into something like this FAQ, just
-   as someone primarily interested in the mechanics of PGP would 
+   as someone primarily interested in the mechanics of PGP would
    devote more space to PGP issues than I have.
   - Gary Jeffers, for example, devotes most of his "CEB" to
      issues surrounding PGP.
@@ -122,7 +122,7 @@ THE CYPHERNOMICON
 
 1.3. Motivations
  1.3.1. With so much material available, why another FAQ?
- 1.3.2. No convenient access to archives of the list....and who could 
+ 1.3.2. No convenient access to archives of the list....and who could
    read 50 MB of stuff anyway?
  1.3.3. Why not Web? (Mosaic, Http, URL, etc.)
   - Why not a navigable Web document?
@@ -714,10 +714,10 @@ THE CYPHERNOMICON
   - "I have designed a crypting program, that I think is
      unbreakable.  I challenge anyone who is interested to get
      in touch with me, and decrypt an encrypted massage."
-     
+
       "With highest regards,
        Babak   Sehari." [Babak Sehari, sci.crypt, 6-19-94]
-     
+
 2.4.25. "Ask Emily Post Crypt"
   + my variation on "Ask Emily Postnews"
     - for those that don't know, a scathing critique of
@@ -880,18 +880,18 @@ THE CYPHERNOMICON
        1)+1=21.  There is a mathematical relationship that says
        that x = x^21 mod 35 for any x from 0 to 34.  Now you
        factor 21, yeilds 3 and 7.
-       
+
        "You pick one of those numbers to be your private key and
        the other one is your public key.  So you have:
        Public key: 3
        Private key: 7
-       
+
        "Someone encrypts a message for you by taking plaintext
        message m to make ciphertext message c:  c=m^3 mod 35
-       
+
        "You decrypt c and find m using your private key: m=c^7
        mod 35
-       
+
        "If the numbers are several hundred digits long (as in
        PGP), it is nearly impossible to guess the secret key."
        [Matthew Ghio, alt.anonymous, 1994-09-03]
@@ -1078,7 +1078,7 @@ THE CYPHERNOMICON
        particles (currently estimated to be 10^73 particles).
        This leads to the "even if every particle were a Cray Y-
        MP it would take..." sorts of thought experiments.
-       
+
        But I am considering _energy_ here. Ignoring reversible
        computation for the moment, computations dissipate energy
        (some disagree with this point). There is some uppper
@@ -1092,27 +1092,27 @@ THE CYPHERNOMICON
        result would likely be something along the lines of X
        joules of energy that could be harnessed for computation,
        resulting in Y basic primitive computational steps.
-       
+
        I can then find a modulus of 3000 digits or 5000 digits,
        or whatever, that takes *more* than this number of steps
        to factor. Therefore, unbreakable in our universe.
   - Caveats:
-     
+
      1. Maybe there are really shortcuts to factoring. Certainly
      improvements in factoring methods will continue. (But of
      course these improvements are not things that convert
      factoring into a less than exponential-in-length
      problem...that is, factoring appears to remain "hard.")
-     
+
      2. Maybe reversible computations (a la Landauer, Bennett,
      et. al.) actually work. Maybe this means a "factoring
      machine" can be built which takes a fixed, or very slowly
      growing, amount of energy. In this case, "forever" means
      Lefty is probably right.
-     
+
      3. Maybe the quantum-mechanical idea of Peter Shor is
      possible. (I doubt it, for various reasons.)
-     
+
 2.5.20. "How safe is RSA?" "How safe is PGP?" "I heard that PGP has
    bugs?"
   - This cloud of questions is surely the most common sort that
@@ -1271,14 +1271,14 @@ THE CYPHERNOMICON
      by Eric Hughes, in 1992, as it allowed chaining,
      independence from particular mail systems, etc.).
   - A message will be something like this:
-     
+
      ::
      Request-Remailing-To: remailer@bar.baz
-     
+
      Body of text, etc., etc. (Which could be more remailing
      instructions, digital postage, etc.)
-     
-     
+
+
   - These nested messages make no assumptions about the type of
      mailer being used, so long as it can handle straight ASCII
      text, which all mailers can of course. Each mail message
@@ -1491,16 +1491,16 @@ THE CYPHERNOMICON
      anonymity and pseudonymity, and other crypto-mediated
      interactions, will profoundly change the nature of
      economies and social interactions.
-     
+
      Governments will have a hard time collecting taxes,
      regulating the behavior of individuals and corporations
      (small ones at least), and generally coercing folks when it
      can't even tell what _continent_ folks are on!
-     
+
      Read Vinge's "True Names" and Card's "Ender's Game" for
      some fictional inspirations. "Galt's Gulch" in cyberspace,
      what the Net is rapidly becoming already.
-     
+
      I call this set of ideas "crypto anarchy" (or "crypto-
      anarchy," as you wish) and have written about this
      extensively. The magazines "Wired" (issue 1.2), "Whole
@@ -1662,19 +1662,19 @@ THE CYPHERNOMICON
      sting, as is so often the case when amateurs try to arrange
      hits, they can use an escrow service to insulate themselves
      from:
-     
+
      1. From being traced, because the exchanges are handled via
      pseudonyms
-     
+
      2. From the killer taking the money and then not performing
      the hit, because the escrow agent holds the money until the
      murder is verified (according to some prototocol, such a
      newspaper report...again, an area for more work,
      thankfully).
-     
+
      3. From being arrested when the money is picked up, as this
      is all done via digital cash.
-     
+
      There are some ways to reduce the popularity of this
      Murder, Incorporated system. (Things I've been thinking
      about for about 6 years, and which we discussed on the
@@ -2458,13 +2458,13 @@ THE CYPHERNOMICON
    and couriers.  Cypherpunks do not seek to prevent other
    people from speaking about their experiences or their
    opinions.
-   
+
    "The most important means to the defense of privacy is
    encryption. To encrypt is to indicate the desire for privacy.
    But to encrypt with weak cryptography is to indicate not too
    much desire for privacy. Cypherpunks hope that all people
    desiring privacy will learn how best to defend it.
-   
+
    "Cypherpunks are therefore devoted to cryptography.
    Cypherpunks wish to learn about it, to teach it, to implement
    it, and to make more of it.  Cypherpunks know that
@@ -2472,25 +2472,25 @@ THE CYPHERNOMICON
    know how to attack a system and how to defend it.
    Cypherpunks know just how hard it is to make good
    cryptosystems.
-   
+
    "Cypherpunks love to practice.  They love to play with public
    key cryptography.  They love to play with anonymous and
    pseudonymous mail forwarding and delivery.  They love to play
    with DC-nets.  They love to play with secure communications
    of all kinds.
-   
+
    "Cypherpunks write code.  They know that someone has to write
    code to defend privacy, and since it's their privacy, they're
    going to write it.  Cypherpunks publish their code so that
    their fellow cypherpunks may practice and play with it.
    Cypherpunks realize that security is not built in a day and
    are patient with incremental progress.
-   
+
    "Cypherpunks don't care if you don't like the software they
    write. Cypherpunks know that software can't be destroyed.
    Cypherpunks know that a widely dispersed system can't be shut
    down.
-   
+
    "Cypherpunks will make the networks safe for privacy." [Eric
    Hughes, 1993-07-21 version]
 
@@ -2793,14 +2793,14 @@ THE CYPHERNOMICON
        technological change enhances the powers of individuals,
        their power is enhanced no matter what the government
        does.
-       
+
        "If the collective is weakened and the individual
        strengthened by the fact that I have the power of cheap
        guns, cars, computers, telecoms, and crypto then the
        collective has been weakened and we should ease the
        transition to a society based on voluntary rather than
        coerced interaction.
-       
+
        "Unless you can figure out a new, improved way of
        controlling others; you have no choice." [D.F., Decline
        and Fall, 1994-06-19]
@@ -2877,11 +2877,11 @@ THE CYPHERNOMICON
     - "What we're after is some "community standards" for
        cyberspace, and what I'm suggesting is the fairly
        libertarian standard that goes like this:
-       
+
        "    Prefer technological solutions and self-protection
        solutions
            over rule-making, where they are feasible.
-       
+
        "This is based on the notion that the more rules there
        are, the more people will call for the "net police" to
        enforce them.  If we can encourage community standards
@@ -3520,7 +3520,7 @@ THE CYPHERNOMICON
            sites, but it is a set of scripts for the Unix bignum
            calculator "bc", plus some shell scripts, so it is
            not very portable.
-           
+
            "To create a BBS RNG, choose two random primes p and
            q which are congruent to 3 mod 4.  Then the RNG is
            based on the iteration x = x*x mod n.  x is
@@ -3621,7 +3621,7 @@ THE CYPHERNOMICON
          uncomputable: there's no algorithm which, given an
          arbitrary finite string S, computes the program-length
          complexity of S.
-         
+
          Program-length complexity is well-studied in the
          literature.  A good introductory paper is ``A Theory of
          Program Size Formally Identical to Information Theory''
@@ -4047,14 +4047,14 @@ THE CYPHERNOMICON
        right circumstances if another party digitally signs a
        blinded message, the unblinded message will contain a
        valid digital signature.
-       
+
        "So if Alice blinds the message "I owe Alice $1000" so
        that it reads (say) "a;dfafq)(*&" or whatever, and Bob
        agrees to sign this message, later Alice can unblind the
        message Bob signed to retrieve the original.  And Bob's
        digital signature will appear on the original, although
        he didn't sign the original directly.
-       
+
        "Mathematically, blinding a message means multiplying it
        by a number (think of the message as being a number).
        Unblinding is simply dividing the original blinding
@@ -4146,17 +4146,17 @@ THE CYPHERNOMICON
          given a known p, b, and (b^x) mod p, it's extremely
          hard to find out x.  That's known as the discrete log
          problem.
-         
+
          "Here's how to use it.  Let two parties, X and Y, pick
          random numbers x and y, 1 < x,y < p.  They each
          calculate
-         
+
              (b^x) mod p
-         
+
          and
-         
+
                  (b^y) mod p
-         
+
          and transmit them to each other.  Now, X knows x and
          (b^y) mod p, so s/he can calculate (b^y)^x mod p =
          (b^(xy)) mod p.  Y can do the same calculation.  Now
@@ -4165,12 +4165,12 @@ THE CYPHERNOMICON
          quantities to recover the shared secret.  Typically, of
          course, X and Y will use that shared secret as a key to
          a conventional cryptosystem.
-         
+
          "The biggest problem with the algorithm, as outlined
          above, is that there is no authentication.  An attacker
          can sit in the middle and speak that protocol to each
          legitimate party.
-         
+
          "One last point -- you can treat x as a secret key, and
          publish
          (b^X) mod p as a public key.  Proof is left as an
@@ -4340,7 +4340,7 @@ THE CYPHERNOMICON
      particles (currently estimated to be 10^73 particles). This
      leads to the "even if every particle were a Cray Y-MP it
      would take..." sorts of thought experiments.
-     
+
      But I am considering _energy_ here. Ignoring reversible
      computation for the moment, computations dissipate energy
      (some disagree with this point). There is some uppper limit
@@ -4354,27 +4354,27 @@ THE CYPHERNOMICON
      be something along the lines of X joules of energy that
      could be harnessed for computation, resulting in Y basic
      primitive computational steps.
-     
+
      I can then find a modulus of 3000 digits or 5000 digits, or
      whatever,that takes more than this number of steps to
      factor.
-     
+
      Caveats:
-     
+
      1. Maybe there are really shortcuts to factoring. Certainly
      improvements in factoring methods will continue. (But of
      course these improvements are not things that convert
      factoring into a less than exponential-in-length
      problem...that is, factoring appears to remain "hard.")
-     
+
      2. Maybe reversible computations (a la Landauer, Bennett,
      et. al.) actually work. Maybe this means a "factoring
      machine" can be built which takes a fixed, or very slowly
      growing, amount of energy.
-     
+
      3. Maybe the quantum-mechanical idea of Shore is possible.
      (I doubt it, for various reasons.)
-     
+
      I continue to find it useful to think of very large numbers
      as creating "force fields" or "bobbles" (a la Vinge) around
      data. A 5000-decimal-digit modulus is as close to being
@@ -4491,8 +4491,8 @@ THE CYPHERNOMICON
        poets. This also gets around the keyboard-monitoring
        trick (but not necessarily the CRT-reading trick, of
        course).
-       
-       
+
+
        It might be an interesting hack to offer this as a front
        end for PGP. Even a simple grid of characters which could
        be moused on could be an assist in using long
@@ -5206,7 +5206,7 @@ THE CYPHERNOMICON
      are happening because the costs have dropped enough.)
   - Crypto is economics. People will begin to really care when
      it costs them.
-     
+
 6.10.2. What motivates an attackers is not the intrinsic value of the
    data but his perception of the value of the data.
 6.10.3. Crypto allows more refinement of permissions...access to
@@ -5371,28 +5371,28 @@ THE CYPHERNOMICON
        drop, finder selection, the clipboard, all accessible
        from a system-wide menu.  Eudora AppleScripts also exist
        to interface MacPGP with the mail program Eudora.
-       
+
        "MacPGP 2.6ui v1.2 is available via anonymous ftp from:
-       
+
        FTP SITE                 DIRECTORY
        CONTENTS
        --------                 ---------
        --------
        ftp.darmstadt.gmd.de     pub/crypto/macintosh/MacPGP
        MacPGP 2.6ui, source
-       
-       
+
+
        AppleScripts for 2.6ui are available for U.S. and
        Canadian citizens ONLY
        via anonymous ftp from:
-       
+
        FTP SITE                 DIRECTORY
        CONTENTS
        --------                 ---------
        --------
        ftp.csn.net              mpj
        IMPI & Eudora scripts
-       
+
        MacPGP 2.6ui, source
        [phinely@uhunix.uhcc.Hawaii.Edu (Peter Hinely),
        alt.security.pgp, 1994-06-28]
@@ -5453,7 +5453,7 @@ THE CYPHERNOMICON
      dist@mit.edu, in the pub/PGP directory." [corrected by
      Derek Atkins to be: net-dist.mit.edu, not net-
      dist@mit.edu.]
-     
+
      "This new version has a lot of bug fixes over version 2.6.
      I hope this is the final release of this family of PGP
      source code.  We've been working on an entirely new version
@@ -5795,11 +5795,11 @@ THE CYPHERNOMICON
 7.10.2. William Stallings had this to say in a Usenet post:
   - "PGPShell: runs directly on the DOS version, doesn't need
      Windows. Nice, simple interface. freeware
-     
+
      "PGP Winfront: freeware windows front end. Uses a "control
      panel" style, with many options displayed in a compact
      fashion.
-     
+
      "WinPGP: shareware ($45). Uses a drop-down menu style,
      common to many Windows applications." [William Stallings,
      Looking for PGP front end, alt.security, 1994-08-31]
@@ -5928,7 +5928,7 @@ THE CYPHERNOMICON
        family of extensible protocols for both encryption and
        voice across point to point links.  We indend to use
        existing standards where ever possible.
-       
+
        "We are currently planning on building on top of the RFCs
        for PPP (see RFCs 1549, 1548, and 1334).  The basic idea
        is to add a new Link Control Protocol (or possibly a
@@ -6311,13 +6311,13 @@ IV. Talk of lawsuits, actions, etc.
        time to time throughout history have been able to
        criticize oppressive practices and laws either
        anonymously or not at all."
-       
+
        Greg adds: "It later says "Even the Federalist Papers,
        written in favor of the adoption of our Constitution,
        were published under fictitious names. It is plain that
        anonymity has sometimes been assumed for the most
        constructive purposes." [Greg Broiles, 1994-04-12]
-       
+
   + And certainly many writers, journalists, and others use
      pseudonyms, and have faced no legal action.
     - Provided they don't use it to evade taxes, evade legal
@@ -6849,7 +6849,7 @@ Mail)
   - "I am teaching sections for a class this term, and tomorrow
      I am going to: 1) tell my students how to use a remailer,
      and 2) solicit anonymous feedback on my teaching.
-     
+
      "I figure it will make them less apprehensive about making
      honest suggestions and comments (assuming any of them
      bother, of course)." [Patrick J. LoPresti
@@ -7252,13 +7252,13 @@ Mail)
        would be natural for them to desire an additional amount
        of privacy which would disguise who they were
        communicating with as well as what they were saying.
-       
+
        "Anonymous remailers make this possible.  By forwarding
        mail between themselves through remailers, while still
        identifying themselves in the (encrypted) message
        contents, they have even more communications privacy than
        with simple encryption.
-       
+
        "(The Cypherpunk vision includes a world in which
        literally hundreds or thousands of such remailers
        operate.  Mail could be bounced through dozens of these
@@ -7268,7 +7268,7 @@ Mail)
        sending periodic dummy messages which just get swallowed
        up at some step, people can even disguise _when_ they are
        communicating.)" [Hal Finney, 1993-02-23]
-       
+
        "The more controversial vision associated with anonymous
        remailers is expressed in such science fiction stories as
        "True Names", by Vernor
@@ -7427,10 +7427,10 @@ Mail)
        which
        collects detailed information about remailer features and
        reliability.
-       
+
           To use it, just finger remailer-
        list@kiwi.cs.berkeley.edu
-       
+
        There is also a Web version of the same information, at:
        http://www.cs.berkeley.edu/~raph/remailer-list.html"
        [Raph Levien, 1994-08-29]
@@ -7848,9 +7848,9 @@ Mail)
        but won't identify you (like a set of random letters).
        This subject does not appear in the remailed message.
        Then subscribe to the mailing list
-       
+
        errors-request@extropia.wimsey.com
-       
+
        by sending a message with Subject: subscribe.  You will
        receive a msg
        for ALL errors detected in incoming messages and ALL
@@ -7873,7 +7873,7 @@ Mail)
        address or domain name of the site making the outgoing
        connection will appear in a Received field in the header
        somewhere."
-       
+
        "2. Fake mail by devious means is generally frowned upon.
        There's no need to take a back-door approach here--it's
        bad politically, as in Internet politics." [Eric Hughes,
@@ -7957,7 +7957,7 @@ Mail)
   - "Anonymous postings to usenet can be made by sending
      anonymous mail to one of the following mail-to-usenet
      gateways:
-     
+
      group.name@demon.co.uk
      group.name@news.demon.co.uk
      group.name@bull.com
@@ -7970,7 +7970,7 @@ Mail)
      group.name@ug.cs.dal.ca
      group.name@paris.ics.uci.edu (removes headers)
      group.name.usenet@decwrl.dec.com (Preserves all headers)"
-     
+
 
 8.8. Anonymous Message Pools, Newsgroups, etc.
  8.8.1. "Why do some people use message pools?"
@@ -8439,7 +8439,7 @@ Mail)
        night scope.  It's killer.  My friend knows about a
        really good gunsmith who has a machineshop and knows how
        to convert stuff to automatic."
-       
+
   - How effective this ploy is is debatable
 8.13.4. Restrictions on anonymous systems
   - Anonymous AIDS testing. Kits for self-testing have been
@@ -8580,7 +8580,7 @@ Mail)
      Worse, to Freeh and other top cops, by using some pretty
      basic technologies, savvy criminals can do their crimes
      without worrying about doing time.
-     
+
      "Some crooks, spies, drug traffickers, terrorists and
      frauds already use the tools of the information age to
      outfox law enforcement officers. Hackers use PBXs to hide
@@ -8617,7 +8617,7 @@ Mail)
   - "Maybe people like Dot and Don think of government as a
      systems-administration sort of job.  So here they are,
      security experts advising the sys admins on things like...
-     
+
      setting permissions
      allocating quotas
      registering users and giving them passwords.....
@@ -8630,14 +8630,14 @@ Mail)
      buying new hardware from vendors
      specifying the hardware to the vendors
      ...
-     
+
      "These are the things computer security experts advise on.
      Maybe hammer experts see things as nails.
-     
+
      "Only a country is not a host system owned and administered
      by the government, and citizens are not guests or users."
      [Steve Witham, Government by Sysadmin, 1994-03-23]
-     
+
  9.5.4. Who would want to use key escrow?
  9.5.5. "Will strong crypto really thwart government plans?"
   - Yes, it will give citizens the basic capabilities that
@@ -8725,7 +8725,7 @@ Mail)
      informs us that the European Union's Senior Officials Group
      for Security of Information Systems has been considering
      plans for standardising key escrow in Europe.
-     
+
      "Agreement had been held up by arguments over who should
      hold the keys. France and Holland wanted to follow the
      NSA's lead and have national governments assume this role;
@@ -9239,7 +9239,7 @@ Mail)
      list once said, just because the Mafia call themselves
      "businessmen" doesn't make them legitimate; calling
      extorted wiretaps "escrow" doesn't make them a service.
-     
+
      "The government has no business making me get their
      permission to talk to anybody about anything in any
      language I choose, and they have no business insisting I
@@ -9268,7 +9268,7 @@ Mail)
      important.  If someone want to talk about potential back
      doors, refuse to speculate.  The existence of a front door
      (key escrow) make back door issues pale in comparison.
-     
+
      "If someone wants to talk about how key escrow works,
      refuse to
      elaborate.  Saying that this particular key escrow system
@@ -9276,7 +9276,7 @@ Mail)
      escrow systems in general are OK.  Always argue that this
      particular key escrow system is bad because it is a key
      escrow system, not because it has procedural flaws.
-     
+
      "This right issue is that the government has no right to my
      private communications.  Every other issue is the wrong
      issue and detracts from this central one.  If we defeat one
@@ -9381,9 +9381,9 @@ Mail)
        supporter's are mum on this one. Suggesting....
   + "Why not encrypt data before using the Clipper/EES?"
     - "Why can't you just encrypt data before the clipper chip?
-       
+
        Two answers:
-       
+
        1) the people you want to communicate with won't have
        hardware to
           decrypt your data, statistically speaking.  The beauty
@@ -9395,7 +9395,7 @@ Mail)
           (again, statistically) for a large fraction of the
        traffic to be
           untappable.
-       
+
        2) They won't license bad people like you to make
        equipment like the
           system you describe.  I'll wager that the chip
@@ -9404,7 +9404,7 @@ Mail)
        systems from
           being built, assuring that (1) remains true." [Tom
        Knight, sci.crypt, 6-5-93]
-       
+
     -
   + What are the implications of mandatory key escrow?
     + "escrow" is misleading...
@@ -9447,7 +9447,7 @@ Mail)
      used their powers to thwart true security.
     - "It's worse because the market keeps moving toward
        providing real encryption.
-       
+
        "If Clipper succeeds, it will be by displacing real
        secure encryption. If real secure encryption makes it
        into mass market communications products, Clipper will
@@ -9456,7 +9456,7 @@ Mail)
        worldwide standard, rather than having 3-key triple-DES
        with RSA and Diffie-Hellman become the worldwide
        standard.
-       
+
        "We'd have decent encryption in digital cellular phones
        *now*, except for the active intervention of Jerry
        Rainville of NSA, who `hosted' a meeting of the standards
@@ -9470,7 +9470,7 @@ Mail)
        even though it's part of the official accredited
        standard.  (Guess who accredits standards bodies though -
        - that's right, the once pure NIST.)
-       
+
        "The reason it's secret is because it's so obviously
        weak.  The system generates a 160-bit "key" and then
        simply XORs it against each block of the compressed
@@ -9481,7 +9481,7 @@ Mail)
        and the likelihood of producing something that decodes
        like speech in all the blocks is small enough that you'll
        know when your guess is the real key.
-       
+
        "NSA is continuing to muck around in the Digital Cellular
        standards committee (TR 45.3) this year too.  I encourage
        anyone who's interested to join the committee, perhaps as
@@ -9645,19 +9645,19 @@ Mail)
     - "It amuses the gallows-humor bone in me to see people
        busily debating the quality of Skipjack as an algorithm
        and the quality of the review of its strength.
-       
+
        Someone proposes to dangle you over the Grand Canyon
        using
-       
+
                sewing thread
        tied to
                steel chain
        tied to
                knitting yarn
-       
+
        and you're debating whether the steel chain has been X-
        rayed properly to see if there are flaws in the metal.
-       
+
        "Key generation, chip fabrication, court orders,
        distribution of keys once acquired from escrow agencies
        and safety of keys within escrow agencies are some of the
@@ -9672,7 +9672,7 @@ Mail)
        To: cypherpunks@toad.com
        Subject: cross-post
        Status: OR
-       
+
        Path: transfer.stratus.com!ellisun.sw.stratus.com!cme
        From: cme@ellisun.sw.stratus.com (Carl Ellison)
        Newsgroups: sci.crypt
@@ -9682,27 +9682,27 @@ Mail)
        Lines: 28
        Message-ID: <23k0nn$8gk@transfer.stratus.com>
        NNTP-Posting-Host: ellisun.sw.stratus.com
-       
-       
+
+
        It amuses the gallows-humor bone in me to see people
        busily debating the
        quality of Skipjack as an algorithm and the quality of
        the review of its
        strength.
-       
+
        Someone proposes to dangle you over the Grand Canyon
        using
-       
+
                sewing thread
        tied to
                steel chain
        tied to
                knitting yarn
-       
+
        and you're debating whether the steel chain has been X-
        rayed properly
        to see if there are flaws in the metal.
-       
+
        Key generation, chip fabrication, court orders,
        distribution of keys once
        acquired from escrow agencies and safety of keys within
@@ -9715,7 +9715,7 @@ Mail)
        the key, then we
        need to look at the steel chain in the middle: Skipjack
        itself.
-       
+
       - "Key generation, chip fabrication, court orders,
          distribution of keys once acquired from escrow agencies
          and safety of keys within escrow agencies are some of
@@ -9749,7 +9749,7 @@ Mail)
    misguided....in fact, it's very fine work. But a general
    focus on the _details_ of Skipjack does nothing to allay my
    concerns about the _principle_ of government-mandated crypto.
-   
+
    If it were "house key escrow" and there were missing details
    about the number of teeth allowed on the keys, would be then
    all breathe a sigh of relief if the details of the teeth were
@@ -10023,18 +10023,18 @@ Mail)
   + Sandy Sandfort theorizes that this example might work, or
      at least lead to an interesting legal dilemma:
     - "As an example, your passphrase could be:
-       
+
                I shot a cop in the back and buried his body
        under
                the porch at 123 Main St., anywhere USA.  The gun
        is
                wrapped in an oily cloth in my mother's attic.
-       
+
        "I decline to answer on the grounds that my passphrase is
        a statement which may tend to incriminate me.  I will
        only give my passphrase if I am given immunity from
        prosecution for the actions to which it alludes."
-       
+
        "Too cute, I know, but who knows, it might work." [S.S.,
        1994-0727]
 10.3.6. "What about disavowal of keys? Of digital signatures? Of
@@ -10223,27 +10223,27 @@ Mail)
     - "Remember the instructions for cooking a live frog.  The
        government does not intend to stop until they have
        effectively eliminated your privacy.
-       
+
        STEP 1:  Clipper becomes the de facto encryption
        standard.
-       
+
        STEP 2:  When Cypherpunks and other "criminals" eschew
        Clipper in favor of trusted strong crypto, the government
        is "forced" to ban non-escrowed encryption systems.
        (Gotta catch those pedophiles, drug dealers and
        terrorists, after all.)
-       
+
        STEP 3:  When Cypherpunks and other criminals use
        superencryption with Clipper or spoof LEAFs, the
        government will regretably be forced to engage in random
        message monitoring to detect these illegal techniques.
-       
+
        Each of these steps will be taken because we wouldn't
        passively accept such things as unrestricted wiretaps and
        reasonable precautions like
        digital telephony.  It will portrayed as our fault.
        Count on it." [Sandy Sandfort, 6-14-94]
-       
+
 10.4.6. Can the flow of bits be stopped? Is the genie really out of
    the bottle?
   - Note that Carl Ellison has long argued that the genie was
@@ -10764,19 +10764,19 @@ IV. Talk of lawsuits, actions, etc.
          restricted to decryption, banking, analog scrambling,
          special smart cards, user authentication, data
          authentication, data compression, or virus protection.
-         
+
          "The algorithm is then in USML Category XIII(b)(1).
-         
+
          "It is thus a defense article. ITAR 120.6. " [Dan
          Bernstein, posting code to sci.crypt,
          talk.politics.crypto, 1994-08-22]
       - "Sending a defense article out of the United States in
          any manner (except as knowledge in your head) is
          export. ITAR 120.17(1).
-         
+
          "So posting the algorithm constitutes export. There are
          other forms of export, but I won't go into them here.
-         
+
          "The algorithm itself, without any source code, is
          software."  [Dan Bernstein, posting code to sci.crypt,
          talk.politics.crypto, 1994-08-22]
@@ -10806,13 +10806,13 @@ IV. Talk of lawsuits, actions, etc.
       - "1) No one has ever been prosecuted for posting code on
          sci.crypt. The Zimmermann case, if anything ever comes
          of it, was not about posting code on Usenet, AFAIK.
-         
+
          "2) No relevant government official has publically
          expressed an opinion on whether posting code on
          sci.crypt would be legal.  The conversations Dan
          Bernstein posted dealt with his requests for permission
          to export his algorithm, not to post code on sci.crypt.
-         
+
          "3) We don't know whether anyone will ever be
          prosecuted for posting code on sci.crypt, and we don't
          know what the outcome of any such prosecution would
@@ -11031,7 +11031,7 @@ IV. Talk of lawsuits, actions, etc.
    "involvement" with a terrorist plot, Emory University fears
    being sued for millions of dollars for "conspiring" to
    degrade wimmin of color, etc.)
-   
+
    How long before "rec.guns" is no longer carried at many
    sites, as they fear having their universities or companies
    linked to discussions of "assault weapons" and "cop-killer
@@ -11048,7 +11048,7 @@ IV. Talk of lawsuits, actions, etc.
    threaten those who dare to publicly speak against their
    projects is a travesty, a travesty that the courts have only
    recently begun to correct).
-   
+
    We are becoming a nation of sheep, fearing the midnight raid,
    the knock on the door. We fear that if we tell a joke,
    someone will glare at us and threaten to sue us _and_ our
@@ -11143,7 +11143,7 @@ IV. Talk of lawsuits, actions, etc.
    _ever_ needed. Maybe for driving a car, and the like, but in
    those cases anonymity is not needed, as the person is in the
    car, etc.
-   
+
    Credentials for drinking age? Why? Let the parents enforce
    this, as the argument goes about watching sex and violence on
    t.v. (If one accepts the logic of requiring bars to enforce
@@ -11151,7 +11151,7 @@ IV. Talk of lawsuits, actions, etc.
    requiring television set makers to check smartcards of
    viewers, or of requiring a license to access the Internet,
    etc.)
-   
+
    In almost no cases do I see the need to carry "papers" with
    me. Maybe a driver's license, like I said. In other areas,
    why?
@@ -11168,12 +11168,12 @@ IV. Talk of lawsuits, actions, etc.
      clearing is bogus...like paying a stranger a sum of money
      on his promise that he'll be back the next day to start
      building you a house.
-     
+
      Parties to such long-term, non-locally-cleared cases may
      contract with an escrow agent, as I described above. This
      is like the "privately-produced law" we've discussed so
      many times. The essence: voluntary arrangements.
-     
+
      Maybe proofs of identity will be needed, or asked for,
      maybe not. But these are not the essence of the deal.
 
@@ -11356,7 +11356,7 @@ IV. Talk of lawsuits, actions, etc.
      lines are fuzzy, and because they are fuzzy, the banks
      don't press on them nearly as hard as when there's clear
      statutory language available to be interpreted in a court.
-     
+
      "The uncertainty in the regulatory environment _increases_
      the hold the regulators have over the banks.  And the
      regulators are known for being decidedly finicky.  Their
@@ -11366,7 +11366,7 @@ IV. Talk of lawsuits, actions, etc.
      linking issues.  If a bank does something untoward in, say,
      mortgage banking, they may find, say, their interstate
      branching possibilities seem suddenly much dimmer.
-     
+
      "The Dept. of Treasury doesn't want untraceable
      transactions." [Eric Hughes, Cypherpunks list, 1994-8-03]
   - Attempts to sneak around the laws, especially in the
@@ -12515,7 +12515,7 @@ IV. Talk of lawsuits, actions, etc.
      workstatins and PCs,  especially the activities of many
      small at-home businesses (such as mailing list
      entrepreneurs who often work out of the home).
-     
+
      "Thus, the upshot of these so-called "privacy" regulations
      is to destroy our last shreds of privacy against
      government, and calm us into blindly letting even more of
@@ -12871,7 +12871,7 @@ IV. Talk of lawsuits, actions, etc.
        it happened he was quite serious, at least appeared to
        be.  There was a long silence after he made the threat,
        with a staring contest.  He was quite intense.
-       
+
        "I respect and trust the other two who were in the room
        (they were shocked and literally speechless, staring into
        their laps) and plan to ask NSA for a written apology and
@@ -13115,12 +13115,12 @@ IV. Talk of lawsuits, actions, etc.
        a denomination and possibly a date.  The exponents must
        be relatively prime to (p-1)(q-1).  PGP has a GCD routine
        which can be used to check for valid exponents..
-       
+
        "As with RSA, to each public exponent ei corresponds a
        secret exponent di, calculated as the multiplicative
        inverse of ei mod (p-1)(q-1).  Again, PGP has a routine
        to calculate multiplicative inverses.
-       
+
        "In this system, a piece of cash is a pair (x, f(x)^di),
        where f() is a one-way function.  MD5 would be a
        reasonable choice for f(), but notice that it produces a
@@ -13128,7 +13128,7 @@ IV. Talk of lawsuits, actions, etc.
        MD5 and "reblock" it to be an multi-precision number by
        padding it; PGP has a "preblock" routine which does this,
        following the PKCS standard.
-       
+
        "The way the process works, with the blinding, is like
        this.  The user chooses a random x.  This should probably
        be at least 64 or 128 bits, enough to preclude exhaustive
@@ -13392,7 +13392,7 @@ IV. Talk of lawsuits, actions, etc.
        will not be able to keep track of who gets the payments.
        Indeed, it is the only system in which two card holders
        can transfer money to each other.
-       
+
        ""If you want to have a product that replaces cash, you
        have to do everything that cash does, only better,"
        Mondex's senior executive, Michael Keegan said.  "You can
@@ -13419,14 +13419,14 @@ IV. Talk of lawsuits, actions, etc.
        cccs93.ps.Z
     - "NetCash: A design for practical electronic currency on
        the Internet  ... Gennady Medvinsky and Clifford Neuman
-       
+
        "NetCash is a framework that supports realtime electronic
        payments with provision of anonymity over an unsecure
        network.  It is designed to enable new types of services
        on the Internet which have not been practical to date
        because of the absence of a secure, scalable, potentially
        anonymous payment method.
-       
+
        "NetCash strikes a balance between unconditionally
        anonymous electronic currency, and signed instruments
        analogous to checks that are more scalable but identify
@@ -13456,17 +13456,17 @@ IV. Talk of lawsuits, actions, etc.
     - "PERSONAL FINANCE - Seeking the Card That Would Create A
        Cashless World. The Washington Post, April 03, 1994,
        FINAL Edition By: Albert B. Crenshaw, Washington Post ...
-       
+
        "Now that credit cards are in the hands of virtually
        every living, breathing adult  in  the  country-not to
        mention a lot of children and the occasional family  pet-
        and  now  that  almost  as  many people  have  ATM cards,
        card companies are wondering where future growth will
        come from.
-       
+
        "At *Visa* International, the answer is: Replace cash
        with plastic.
-       
+
        "Last month,  the  giant  association  of  card issuers
        announced it had formed a coalition of banking and
        technology companies to develop technical standards  for
@@ -13479,12 +13479,12 @@ IV. Talk of lawsuits, actions, etc.
        mention of DigiCash, or even RSA (but maybe I missed that-
        -and the presence of RSA would not necessairly mean
        identity-blinding protocols were being planned).
-       
+
        Likely Scenario: This is *not* digital cash as we think
        of it. Rather, this is a future evolution of the cash ATM
        card and credit card, optimized for faster and cheaper
        clearing.
-       
+
        Scary Scenario: This could be the vehicle for the long-
        rumored "banning of cash." (Just because conspiracy
        theorists and Number of the Beast Xtian fundamentalists
@@ -13893,7 +13893,7 @@ IV. Talk of lawsuits, actions, etc.
      as the dollar regulation, so it's quite possible that the
      New York banks may be the first issuers of digital cash, in
      pounds sterling, say.
-     
+
      "There will be two stages in actually deploying digital
      cash.  By digital cash, here, I mean a retail phenomenon,
      available anybody. The first will be to digitize money, and
@@ -13905,7 +13905,7 @@ IV. Talk of lawsuits, actions, etc.
      will almost certainly succeed first in the marketplace,
      because (and this is vital) the regulatory environment
      against anonymity is not compromised.
-     
+
      "Once, however, money has been digitized, one of the
      services available for purchase can be the anonymous
      transfer of funds.  I expect that the first digitization of
@@ -13918,7 +13918,7 @@ IV. Talk of lawsuits, actions, etc.
      another.  It may be a risk issue, it may be a timeliness
      issue, it may be a fee issue; I don't know, but it's
      unlikely to be perfect.
-     
+
      "Now, as the characteristic size of a business decreases,
      the relative costs of dealing with whatever imperfection
      there is will be greater. To wit, the small player will
@@ -13985,7 +13985,7 @@ IV. Talk of lawsuits, actions, etc.
      means that it is impossible for anyone to trace
      transactions, or to match a withdrawal with a deposit, or
      to match two coins in any way."
-     
+
      "The system consists of two modules, the server and the
      client. Magic Money uses the PGP ascii-armored message
      format for all communication between the server and client.
@@ -13994,7 +13994,7 @@ IV. Talk of lawsuits, actions, etc.
      Chaum-style blind signature. Note that the blind signature
      is patented, as is RSA. Using it for experimental purposes
      only shouldn't get you in trouble.
-     
+
      "Digicash is represented by discrete coins, the
      denominations of which are chosen by the server operator.
      Coins are RSA-signed, with a different e/d pair for each
@@ -14189,7 +14189,7 @@ IV. Talk of lawsuits, actions, etc.
      here. I am including just enough to convince readers that
      some new sorts of banking ideas may come out of
      cryptography.]
-     
+
      "If we use the contents of the encrypted books at the
      organizational boundary points to create suitable legal
      opbligations, we can mostly ignore what goes on inside of
@@ -14468,7 +14468,7 @@ IV. Talk of lawsuits, actions, etc.
          don't want to be impolite and force the Cypherpunk
          payer to 'fess up, so they carry out this protocol (or
          procedure):
-         
+
          Each Cypherpunk flips a fair coin behind a menu placed
          upright between himself and the Cypherpunk on his
          right. The coin is visible to himself AND to the
@@ -14478,7 +14478,7 @@ IV. Talk of lawsuits, actions, etc.
          I've described. If you lost it here, all that follows
          will be a blur. It's too bad the state of the Net today
          cannot support figures and diagrams easily.)
-         
+
          Each Cypherpunk then states out loud whether the two
          coins he can see are the SAME or are DIFFERENT, e.g.,
          "Heads-Tails" means DIFFERENT, and so forth. For now,
@@ -14486,24 +14486,24 @@ IV. Talk of lawsuits, actions, etc.
          thinking shows that the total number of "DIFFERENCES"
          must be either 0 (the coins all came up the same), or
          2. Odd parity is impossible.
-         
+
          Now the Cypherpunks agree that if one of them paid, he
          or she will SAY THE OPPOSITE of what they actually see.
          Remember, they don't announce what their coin turned up
          as, only whether it was the same or different as their
          neighbor.
-         
+
          Suppose none of them paid, i.e., the NSA paid. Then
          they all report the truth and the parity is even
          (either 0 or 2 differences). They then know the NSA
          paid.
-         
+
          Suppose one of them paid the bill. He reports the
          opposite of what he actually sees, and the parity is
          suddenly odd. That is, there is 1 difference reported.
          The Cypherpunks now know that one of them paid. But can
          they determine which one?
-         
+
          Suppose you are one of the Cypherpunks and you know you
          didn't pay. One of the other two did. You either
          reported SAME or DIFFERENT, based on what your neighbor
@@ -14511,7 +14511,7 @@ IV. Talk of lawsuits, actions, etc.
          can't tell which of the other two is lying! (You can
          see you right-hand neighbor's coin, but you can't see
          the coin he sees to his right!)
-         
+
          This all generalizes to any number of people. If none
          of them paid, the parity is even. If one of them paid,
          the parity is odd. But which one of them paid cannot be
@@ -14541,20 +14541,20 @@ IV. Talk of lawsuits, actions, etc.
            protocol amongst themselves). Lots more stuff here.
            Chaum devotes most of the paper to these kind of
            issues and their solutions.
-           
+
            2. With each round of this protocol, a single bit is
            transmitted. Sending a long message means many coin
            flips. Instead of coins and menus, the neighbors
            would exchange lists of random numbers (with the
            right partners, as per the protocol above, of course.
            Details are easy to figure out.)
-           
+
            3. Since the lists are essentially one-time pads, the
            protocol is unconditionally secure, i.e., no
            assumptions are made about the difficulty of
            factoring large numbers or any other crypto
            assumptions.
-           
+
            4. Participants in such a "DC-Net" (and here we are
            coming to the heart of the "crypto anarchy" idea)
            could exchange CD-ROMs or DATs, giving them enough
@@ -14565,7 +14565,7 @@ IV. Talk of lawsuits, actions, etc.
            (early applications may be for untraceable
            brainstorming comments, secure voting in corportate
            settings, etc.)
-           
+
            5. The lists of random numbers (coin flips) can be
            generated with standard cryptographic methods,
            requiring only a key to be exchanged between the
@@ -14575,7 +14575,7 @@ IV. Talk of lawsuits, actions, etc.
            sufficient. (Don't think "only cryptographically
            secure" means insecure....the messages may remain
            encrypted for the next billion years)
-           
+
            6. Collisions occur when multiple messages are sent
            at the same time. Various schemes can be devised to
            handle this, like backing off when you detect another
@@ -14865,7 +14865,7 @@ IV. Talk of lawsuits, actions, etc.
      driven by insurance rates. A direct incentive to spend more
      money to improve security (cost of better safe < cost of
      higher insurance rate).
-     
+
      Right now there is almost no economic incentive for people
      to worry about PIN security, about protecting their files,
      etc. (Banks eat the costs and pass them on...any bank which
@@ -14873,7 +14873,7 @@ IV. Talk of lawsuits, actions, etc.
      PINs--which people would *write down* anyway!--would lose
      customers. Holograms and pictures on bank cards are
      happening because the costs have dropped enough.)
-     
+
      Personally, my main interests is in ensuring the Feds don't
      tell me I can't have as much security as I want to buy. I
      don't share the concern quoted above that we have to find
@@ -14946,7 +14946,7 @@ IV. Talk of lawsuits, actions, etc.
      organized via a network of "stations" coordinated via the
      Internet using "illegal encryption"?  Or would they trust
      Clipper in such a situation?
-     
+
      "Everyone in America is passionate about something.  Such
      passion usually dispenses with mere legalism, when it comes
      to what the believer feels is a question of fundamental
@@ -15317,7 +15317,7 @@ IV. Talk of lawsuits, actions, etc.
        toward the personal, downplaying the possibility of
        technical error, and it begins to close off examination
        of technicalities not fully understood.
-       
+
        "Those who resist paranoia will become better at
        cryptography than those who do not, all other things
        being equal.  Cryptography is about epistemology, that
@@ -15329,7 +15329,7 @@ IV. Talk of lawsuits, actions, etc.
        security is not sufficient.  There must be confidence
        thatthe way by which this security becomes to be believed
        is robust and immune to delusion.
-       
+
        "Paranoia creates delusion.  As a direct and fundamental
        result, it makes one worse at cryptography.  At the
        outside best, it makes one slower, as the misallocation
@@ -15426,16 +15426,16 @@ IV. Talk of lawsuits, actions, etc.
      hashes, via a tree system) and then they *publish* the
      resultant hash in a very public and hard-to-alter forum,
      such as in an ad in the Sunday "New York Times."
-     
+
      In their parlance, such an ad is a "widely witnessed
      event," and attempts to alter all or even many copies of
      the newspaper would be very difficult and expensive. (In a
      sense, this WWE is similar to the "beacon" term Eric Hughes
      used.)
-     
+
      Haber and Stornetta plan some sort of commercial operation
      to do this.
-     
+
      This service has not yet been tested in court, so far as I
      know. The MIT server is an experiment, and is probably
      useful for experimenting. But it is undoubtedly even less
@@ -15546,7 +15546,7 @@ IV. Talk of lawsuits, actions, etc.
      he should try desteganizing and decrypting the message, and
      the other is for a possible attacker to discover illegal
      uses of cryptography.
-     
+
      "Steganography should be used with a "stealthy"
      cryptosystem (secret key or public key), one in which the
      cyphertext is indistinguishable from a random bit string.
@@ -15569,13 +15569,13 @@ IV. Talk of lawsuits, actions, etc.
      _several_ times on sci.crypt and elsewhere...and I'm
      willing to bet I wasn't the first, either (so I don't claim
      any credit).
-     
+
      A 2-hour DAT contains about 10 Gbits (2 hours x 3600 sec/hr
      x 2 channels x 16 bits/sample x 44K samples/sec), or about
      1.2 Gbytes. A CD contains about half this, i.e., about 700
      Mbytes. The LSB of a DAT is 1/16th of the 1.2 Gbytes, or 80
      Mbytes. This is a _lot_ of storage!
-     
+
      A home-recorded DAT--and I use a Sony D-3 DAT Walkman to
      make tapes--has so much noise down at the LSB level--noise
      from the A/D and D/A converters, noise from the microphones
@@ -15589,14 +15589,14 @@ IV. Talk of lawsuits, actions, etc.
      properties of the signal bits resemble what would be
      expected with "noise" bits, but this will be a minor
      hurdle.
-     
+
      Adobe Photoshop can be used to easily place message bits in
      the "noise" that dominates things down at the LSB level.
      The resulting GIF can then be posted to UseNet or e-mailed.
      Ditto for sound samples, using the ideas I just described
      (but typically requiring sound sampling boards, etc.). I've
      done some experiments along these lines.
-     
+
      This doesn't mean our problems are solved, of course.
      Exchanging tapes is cumbersome and vulnerable to stings.
      But it does help to point out the utter futility of trying
@@ -16139,15 +16139,15 @@ IV. Talk of lawsuits, actions, etc.
      based systems, etc.
   - For history's sake, here it is:
 16.4.2.
-   
+
    The Crypto Anarchist Manifesto
-   
+
    Timothy  C.  May
    tcmay@netcom.com
-   
+
    A specter is haunting the modern world, the specter of crypto
    anarchy.
-   
+
    Computer technology is on the verge of providing the ability
    for individuals and groups to communicate and interact with
    each other in a totally anonymous manner. Two persons may
@@ -16164,7 +16164,7 @@ IV. Talk of lawsuits, actions, etc.
    economic interactions, the ability to keep information
    secret, and will even alter the nature of trust and
    reputation.
-   
+
    The technology for this revolution--and it surely will be
    both a social and economic revolution--has existed in theory
    for the past decade. The methods are based upon public-key
@@ -16181,7 +16181,7 @@ IV. Talk of lawsuits, actions, etc.
    smart cards, satellites,  Ku-band transmitters, multi-MIPS
    personal computers, and encryption chips now under
    development will be some of the enabling technologies.
-   
+
    The State will of course try to slow or halt the spread of
    this technology, citing national security concerns, use of
    the technology by drug dealers and tax evaders, and fears of
@@ -16193,7 +16193,7 @@ IV. Talk of lawsuits, actions, etc.
    Various criminal and foreign elements will be active users of
    CryptoNet. But this will not halt the spread of crypto
    anarchy.
-   
+
    Just as the technology of printing altered and reduced the
    power of medieval guilds and the social power structure, so
    too will cryptologic methods fundamentally alter the nature
@@ -16208,9 +16208,9 @@ IV. Talk of lawsuits, actions, etc.
    too will the seemingly minor discovery out of an
    arcane branch of mathematics come to be the wire clippers
    which dismantle the barbed wire around intellectual property.
-   
+
    Arise, you have nothing to lose but your barbed wire fences!
-   
+
 
 16.5. Changes are Coming
 16.5.1. Technology is dramatically altering the nature of
@@ -16263,20 +16263,20 @@ IV. Talk of lawsuits, actions, etc.
        do as it pleased with the minority, that not any act of
        power was a law, that law was not merely whatever the
        government willed.
-       
+
        They did not agree on a constitution but agreed to
        respect an unwritten constitution that already existed in
        some sense.
-       
+
        A similar arrangement underlies the American constitution
        (now defunct) and the English declaration of right (also
        defunct)
-       
+
        The problem with such formal peace agreements is that
        they can only be put together after government has
        substantially collapsed.  Some of us wish to try other
        possibilities in the event of collapse.
-       
+
        The American constitution collapsed because of the rise
        of nominalist theories "The constitution says whatever
        the courts say that it says." [James Donald, 1994-08-31]
@@ -20420,7 +20420,7 @@ IV. Talk of lawsuits, actions, etc.
      of  goods and services offered on the markets is at an all-
      time high.  The percentage of the world's countries headed
      by dictators is the lowest it's ever been.
-     
+
      "What all this means is that political philosophies that
      depend on force of arms to push people into line,  will
      increasingly fail to work.  Rich people with choices will,
@@ -20430,7 +20430,7 @@ IV. Talk of lawsuits, actions, etc.
      exist, they will be made.  An ever higher proportion of the
      world's people will be "rich" in wealth and choice as the
      years go on.
-     
+
      "Only a political philosophy that depends on the uncoerced
      cooperation of very  different people has a chance of
      functioning in  the future." [Duncan Frissell, 1994-09-09]
@@ -20601,14 +20601,14 @@ IV. Talk of lawsuits, actions, etc.
      the solution space for modern ciphers offers very little in
      the way of "learning" opportunities: you either have the
      solution (the key), or you don't.
-     
+
      Think of a needle standing up from a flat plain...a NN or
      any other hill-climber could wander for years and never
      find it. Well-designed modern ciphers like RSA and IDEA
      appear to admit no analysis based on "nonrandom"
      properties. If anybody has found shortcuts to factoring the
      modulus in RSA, for example, they haven't let on.
-     
+
      I suspect there are uses in peripheral aspects, such as
      guessing passwords (when people have not picked high-
      entropy passwords, but have instead used familiar names).
@@ -20616,7 +20616,7 @@ IV. Talk of lawsuits, actions, etc.
      may well be using neural nets, custom signal processing,
      etc. to "prepare" the captured traffic for further
      analysis. A safe bet, in fact.
-     
+
      But the move in modern cryptology is definitely away from
      using anything with "structure" that can be learned. Put
      another way, neural nets and such work well in structured
@@ -20998,7 +20998,7 @@ IV. Talk of lawsuits, actions, etc.
 19.3.1. be sure to get soda address straight!!!  [use clones]
   - I received mine from     soda.csua.berkeley.edu
      the menus are:            /pub/cypherpunks/pgp/pgp26
-     
+
 19.3.2. How to use this section
   + comment on URLs being only a snapshot...
     - use reply to Sherry Mayo here
@@ -21085,7 +21085,7 @@ IV. Talk of lawsuits, actions, etc.
        information at URL:
        www.cpsr.org/cpsr/states/california/cal_gov_info_FAQ.html
        " [Chris Mays, comp.org.cpsr.talk, 1994-07-01]
-       
+
   + NSA Information
     - Can get on NSA/NCSC/NIST mailing list by sending to:
   - csrc.nist.gov:/pub/nistpubs
@@ -21720,7 +21720,7 @@ IV. Talk of lawsuits, actions, etc.
           (Just uploaded it, should be on in a few days)
         oak.oakland.edu:/SimTel/msdos/security/pgs099b.zip (Just
        uploaded it, should be on in a few days)
-       
+
        [Eelco Cramer <crame001@hio.tem.nhl.nl>, 1994-06-27]
   + DOS disk encryption utilities
     + Several free or nearly free utilities are available:
@@ -21732,15 +21732,15 @@ IV. Talk of lawsuits, actions, etc.
          say it is even worse than that.
   + PGS
     - "PGS v0.99c is out there!
-       
+
        This new version of PGS supports 8 bytes keyid's.
        This version will be able to run in a OS/2 DOS box.
-       
+
        PGS v0.99c is available on the following site:
        wuarchive.wustl.edu:/pub/msdos_uploads/pgs/pgs099c.zip"
        [ER CRAMER <crame001@hio.tem.nhl.nl>, 1994-07-08]
-       
-       
+
+
   + Program:
     - Major Versions:
     - Functions:
@@ -21795,13 +21795,13 @@ IV. Talk of lawsuits, actions, etc.
        References: <m0qJqLD-001JKsC@sunforest.mantis.co.uk>
        Date: Wed, 6 Jul 1994 04:17:15 GMT
        Lines: 9
-       
+
        In article <m0qJqLD-001JKsC@sunforest.mantis.co.uk>
        mathew@stallman.mantis.co.uk (mathew at home) writes:
        >Well, I downloaded the rumoured MacPGP 2.6ui, but sadly
        it bombs out
        >immediately with an address error when I try to run it.
-       
+
        MacPGP 2.6ui works on my Quadra 605.
        The MacBinary process cannot handle pathnames >63
        characters, but as long
@@ -21819,16 +21819,16 @@ IV. Talk of lawsuits, actions, etc.
        NNTP-Posting-Host: toxicwaste.media.mit.edu
        In-reply-to: AWILSON@DRUNIVAC.DREW.EDU's message of 2 Jul
        1994 12:25:14 GMT
-       
+
        In article <AWILSON-020794082446@ts7-57.upenn.edu>
        AWILSON@DRUNIVAC.DREW.EDU (AL WILSON) writes:
-       
+
           When will there be a bug fix for MacPGP (1.1.1)?  I am
        not complaining, I
           know that the software is free.  I just want to start
        utilizing it for
           communications at the earliest possible time.
-       
+
        There are still a number of outstanding bugs that need to
        be
        fixed, but the hope is to make a bugfix release in the
@@ -21845,7 +21845,7 @@ IV. Talk of lawsuits, actions, etc.
        Organization: NETCOM On-line Communication Services (408
        261-4700 guest)
        Status: O
-       
+
        Xref: netcom.com alt.security.pgp:16979
        Path: netcom.com!netcomsv!decwrl!lll-
        winken.llnl.gov!sol.ctr.columbia.edu!howland.reston.ans.n
@@ -21863,9 +21863,9 @@ IV. Talk of lawsuits, actions, etc.
        NNTP-Posting-Host: bootes.cus.cam.ac.uk
        Summary: Use 2.6ui :-).
        Originator: iwj10@bootes.cus.cam.ac.uk
-       
+
        -----BEGIN PGP SIGNED MESSAGE-----
-       
+
        In article <RATINOX.94Jul3221136@delphi.ccs.neu.edu>,
        Stainless Steel Rat <ratinox@ccs.neu.edu> wrote:
        >Ed Dantes <edantes@crash.cts.com> writes [quoting
@@ -21883,13 +21883,13 @@ IV. Talk of lawsuits, actions, etc.
        >identically to MIT PGP 2.6, without the "cripple code"
        of MIT PGP 2.6. It
        >is legally available outside the US and Canada only.
-       
+
        This is false.  PGP 2.6ui is available to US and Canadian
        residents.
        It is definitely legal for such people to download PGP
        2.6ui and study
        it.
-       
+
        However, RSADSI claim that *using* PGP 2.6ui in the US
        and Canada
        violates their patents on the RSA algorithm and on public
@@ -21899,19 +21899,19 @@ IV. Talk of lawsuits, actions, etc.
        these patents wouldn't stand up if tested in court, and
        that in any
        case the damages recoverable would be zero.
-       
+
        You might also like to know that the output formats
        generated by 2.6ui
        and MIT-2.6 are identical, so that if you choose to use
        2.6ui in North
        America noone will be able to tell the difference anyway.
-       
+
        Unfortunately these patent problems have caused many
        North American
        FTP sites to stop carrying 2.3a and 2.6ui, for fear of
        committing
        contributory infringement.
-       
+
        If you would like to examine PGP 2.3a or 2.6ui, they are
        available on
        many FTP sites.  Try
@@ -21921,10 +21921,10 @@ IV. Talk of lawsuits, actions, etc.
         ftp.funet.fi:/pub/crypt
        for starters.  Look out for the regular postings here in
        alt.security.pgp for other sites.
-       
+
        -----BEGIN PGP SIGNATURE-----
        Version: 2.6
-       
+
        iQCVAgUBLhqD48MWjroj9a3bAQH9VgQAqOvCVXqJLhnFvsKfr82M5808h
        6GKY5RW
        SZ1/YLmshlDEMgeab4pSLSz+lDvsox2KFxQkP7O3oWYnswXcdr4FdLBu/
@@ -21941,7 +21941,7 @@ IV. Talk of lawsuits, actions, etc.
        http://www.cl.cam.ac.uk/users/iwj10/
        2 Lexington Close, Cambridge, CB4 3LS, England.   Urgent:
        <iwj@cam-orl.co.uk>
-       
+
        --
        .........................................................
        .................
@@ -21957,10 +21957,10 @@ IV. Talk of lawsuits, actions, etc.
        available.
        "National borders are just speed bumps on the information
        superhighway."
-       
-       
-       
-       
+
+
+
+
   + CurveEncrypt, for Mac
     - "Curve Encrypt 1.1, IDEA encryption for the Macintosh is
        now available.....Curve Encrypt is a freeware drag-and-
@@ -21974,12 +21974,12 @@ IV. Talk of lawsuits, actions, etc.
        encryption methods, just so nobody gets confused...)" [
        "W. Kinney" <kinney@bogart.Colorado.EDU>, 1994-07-08]
     - "Ftp Sites:
-       
+
        ripem.msu.edu:pub/crypt/other/curve-encrypt-idea-for-mac/
        This is an export controlled ftp site: read
        pub/crypt/GETTING_ACCESS for
        information.
-       
+
        ftp.csn.org:/mpj/I_will_not_export/crypto_???????/curve_e
        ncrypt/
        csn.org is also export-controlled: read /mpj/README for

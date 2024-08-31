@@ -126,10 +126,10 @@ auction. Each money creation period is divided up into four phases, as
 follows:
 
 1. Planning. The account keepers compute and negotiate with each other to
-determine an optimal increase in the money supply for the next period. 
+determine an optimal increase in the money supply for the next period.
 Whether or not the account keepers can reach a consensus, they each
 broadcast their money creation quota and any macroeconomic calculations
-done to support the figures. 
+done to support the figures.
 
 2. Bidding. Anyone who wants to create b-money broadcasts a bid in the
 form of <x, y> where x is the amount of b-money he wants to create, and y
