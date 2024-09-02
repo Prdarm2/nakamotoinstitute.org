@@ -188,5 +188,3 @@ we're going, to see what issues need more work.
 I hope some of you agree with me.
 
 --Tim May
-
-
